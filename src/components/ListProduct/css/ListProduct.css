@@ -1,0 +1,19 @@
+.top {
+  display: -ms-grid;
+  display: block;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 1rem;
+}
+#endcat {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 8%;
+  width: 100%;
+  background-color: #ef685766;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

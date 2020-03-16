@@ -1,0 +1,86 @@
+.sort {
+  width: 100%;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: var(--padding);
+}
+
+.sort button:not(.toggle) {
+  min-width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 10px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.sort button:not(.toggle)::after {
+  content: '';
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  right: 10%;
+  top: 0;
+}
+
+.sort button:not(.toggle)[data-active='true']::after {
+  background: green;
+}
+
+.sort button:not(.toggle)[data-arrow='up']::after {
+  -webkit-clip-path: polygon(50% 30%, 0 50%, 100% 50%);
+          clip-path: polygon(50% 30%, 0 50%, 100% 50%);
+}
+
+.sort button:not(.toggle)[data-arrow='down']::after {
+  -webkit-clip-path: polygon(50% 70%, 0 50%, 100% 50%);
+          clip-path: polygon(50% 70%, 0 50%, 100% 50%);
+}
+
+.sort button {
+  background: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: var(--border) var(--black30);
+  margin: 5px;
+  transition-duration: 0.4s;
+}
+.sort button:hover {
+  background-color: #f39381b5;; /* Green */
+  color: white;
+}
+.sort button svg {
+  color: var(--blue);
+}
+
+.sort .toggle {
+  height: 30px;
+  width: 30px;
+  border: none;
+}
+
+.sort .toggle svg {
+  width: 100%;
+  height: 100%;
+  color: var(--black50);
+}
