@@ -11,7 +11,7 @@ ecommerce ascii faces pure react
 - show the message "~ end of catalogue ~"
 - every 20 products we need to insert an advertisement
 - returns 15 results starting from the 10th page
-
+- display the faces in their correct size
 
 
 ![alt text](https://raw.githubusercontent.com/rasyidkaromi/face/master/screeshoot/front1.png)
