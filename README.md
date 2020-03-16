@@ -14,6 +14,6 @@ ecommerce ascii faces pure react
 
 
 
-![alt text](https://raw.githubusercontent.com/rasyidkaromi/face/master/screeshoot/front1.png?token=AKKC54M4AA53EERBL4CTCBS6N4PCQ)
+![alt text](https://raw.githubusercontent.com/rasyidkaromi/face/master/screeshoot/front1.png)
 
-![alt text](https://raw.githubusercontent.com/rasyidkaromi/face/master/screeshoot/front2.png?token=AKKC54JVB2NCEGF2GNG7FSC6N4PG2)
+![alt text](https://raw.githubusercontent.com/rasyidkaromi/face/master/screeshoot/front2.png)
