@@ -29,6 +29,9 @@ const ListProduct = () => {
     if (page == 10) {
       setLimit(15)
     }
+    if(page == 1){
+      setLimit(12)
+    }
   }, [page])
 
   useEffect(() => {
