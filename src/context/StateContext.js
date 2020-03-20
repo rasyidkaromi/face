@@ -10,7 +10,7 @@ export const StateProvider = ({ children }) => {
   const [sort, setSort] = useLocalStorage('sort')
 
   let [page, setPage] = useState(1)
-  let [limit, setLimit] = useState(12)
+  let [limit, setLimit] = useState(20)
 
   const [store, setStore] = useState(false)
   const [item, setItem] = useState([]);
